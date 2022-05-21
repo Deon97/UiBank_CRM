@@ -1,0 +1,73 @@
+{
+  "name": "UiBank_Wayforward_Demo",
+  "description": "UiBank_Wayforward_Demo",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.CSV.Activities": "[2019.2.0]",
+    "BalaReva.DataTable.Activities": "[3.0.1]",
+    "BalaReva.Excel.Activities": "[2021.0.0]",
+    "Datatable.CustomActivities": "[1.0.0]",
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.DesktopNotification.Activities": "[1.1.1]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.13.2]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Form.Activities": "[1.9.6]",
+    "UiPath.IntelligentOCR.Activities": "[6.0.1]",
+    "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.OCR.Activities": "[3.6.2]",
+    "UiPath.OmniPage.Activities": "[1.9.0-preview]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "44dfb48f-b908-4afb-a1bc-ba557a5b342b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
